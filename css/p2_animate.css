@@ -1,0 +1,56 @@
+/* p2 动画 */
+#p2>.bg>.h1 {
+    -webkit-animation:p2_bg_h1 2s;
+    animation:p2_bg_h1 2s;
+}
+@-webkit-keyframes p2_bg_h1 {
+    0% {
+        left:-110%
+    }
+    30% {
+        left:-110%
+    }
+}@keyframes p2_bg_h1 {
+     0% {
+         left:-110%
+     }
+     30% {
+         left:-110%
+     }
+ }#p2>.bg>.h2 {
+      -webkit-animation:p2_bg_h2 2s;
+      animation:p2_bg_h2 2s;
+  }
+@-webkit-keyframes p2_bg_h2 {
+    0% {
+        left:110%
+    }
+    30% {
+        left:110%
+    }
+}@keyframes p2_bg_h2 {
+     0% {
+         left:110%
+     }
+     30% {
+         left:110%
+     }
+ }#p2>.bg>.moon,#p2>.container {
+      -webkit-animation:p2_bg_moon 5s;
+      animation:p2_bg_moon 5s;
+  }
+@-webkit-keyframes p2_bg_moon {
+    0% {
+        opacity:0
+    }
+    40% {
+        opacity:0
+    }
+}@keyframes p2_bg_moon {
+     0% {
+         opacity:0
+     }
+     40% {
+         opacity:0
+     }
+ }

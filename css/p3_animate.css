@@ -1,0 +1,94 @@
+/* p3 动画 */
+.xmjl>.bg>.line {
+    -webkit-animation:p3_bg_line 2s;
+    animation:p3_bg_line 2s;
+}
+@-webkit-keyframes p3_bg_line {
+    0% {
+        top:-70vh
+    }
+    40% {
+        opacity:-70vh
+    }
+}@keyframes p3_bg_line {
+     0% {
+         top:-70vh
+     }
+     40% {
+         opacity:-70vh
+     }
+ }.xmjl>.bg>.moon {
+      -webkit-animation:p3_bg_moon 2.5s;
+      animation:p3_bg_moon 2.5s;
+  }
+@-webkit-keyframes p3_bg_moon {
+    0% {
+        left:-30%;
+    }
+}@keyframes p3_bg_moon {
+     0% {
+         left:-30%;
+     }
+ }.xmjl>.bg>.point {
+      -webkit-animation:p3_bg_point 2.5s;
+      animation:p3_bg_point 2.5s;
+  }
+@-webkit-keyframes p3_bg_point {
+    0% {
+        width:0;
+        padding-top:0
+    }
+    80% {
+        width:0;
+        padding-top:0
+    }
+}@keyframes p3_bg_point {
+     0% {
+         width:0;
+         padding-top:0
+     }
+     80% {
+         width:0;
+         padding-top:0
+     }
+ }.xmjl>.bg>.bottom {
+      -webkit-animation:p3_bg_bottom 1.5s;
+      animation:p3_bg_bottom 1.5s;
+  }
+@-webkit-keyframes p3_bg_bottom {
+    0% {
+        top:110%
+    }
+    30% {
+        top:110%
+    }
+}@keyframes p3_bg_bottom {
+     0% {
+         top:110%
+     }
+     30% {
+         top:110%
+     }
+ }.xmjl>.container>div.xm {
+      -webkit-animation:p3_con_xm 2.5s;
+      animation:p3_con_xm 2.5s;
+  }
+@-webkit-keyframes p3_con_xm {
+    0% {
+        top:40%;
+        opacity:0
+    }
+    40% {
+        top:40%;
+        opacity:0
+    }
+}@keyframes p3_con_xm {
+     0% {
+         top:40%;
+         opacity:0
+     }
+     40% {
+         top:40%;
+         opacity:0
+     }
+ }

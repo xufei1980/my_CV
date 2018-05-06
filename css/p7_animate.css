@@ -1,0 +1,43 @@
+/* p7动画 */
+#p7>.bg>.center {
+    -webkit-animation:p7_bg_cn 1.7s;
+    animation:p7_bg_cn 1.7s;
+}
+@-webkit-keyframes p7_bg_cn {
+    0% {
+        transform:scale(0)
+    }
+    40% {
+        transform:scale(0)
+    }
+}@keyframes p7_bg_cn {
+     0% {
+         transform:scale(0)
+     }
+     40% {
+         transform:scale(0)
+     }
+ }
+
+
+@-webkit-keyframes r{
+    0% {
+        transform:rotate(0);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}@keyframes r{
+     0% {
+         transform:rotate(0);
+     }
+     50%{
+         transform: rotate(180deg);
+     }
+     100% {
+         transform:rotate(360deg);
+     }
+ }

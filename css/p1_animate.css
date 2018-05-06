@@ -1,0 +1,130 @@
+/* p1 动画 */
+.pag {
+    -webkit-animation:p1_bg 1s;
+    animation:p1_bg 1s;
+}
+@-webkit-keyframes p1_bg {
+    0% {
+        opacity:0
+    }
+    100% {
+        opacity:1
+    }
+}@keyframes p1_bg {
+     0% {
+         opacity:0
+     }
+     100% {
+         opacity:1
+     }
+ }#p1>.bg>.h1 {
+      -webkit-animation:p1_bg_h1 1.5s;
+      animation:p1_bg_h1 1.5s;
+  }
+#p1>.bg>.h2 {
+    -webkit-animation:p1_bg_h1 1.7s;
+    animation:p1_bg_h1 1.7s;
+}
+#p1>.bg>.h3 {
+    -webkit-animation:p1_bg_h1 1.9s;
+    animation:p1_bg_h1 1.9s;
+}
+@-webkit-keyframes p1_bg_h1 {
+    0% {
+        top:110vh;
+    }
+    50% {
+        top:110vh;
+    }
+    100% {
+        top:50vh;
+    }
+}@keyframes p1_bg_h1 {
+     0% {
+         top:110vh;
+     }
+     50% {
+         top:110vh;
+     }
+     100% {
+         top:50vh;
+     }
+ }#p1>.bg>.h4,#p1>.bg>.h5 {
+      -webkit-animation:p1_bg_h45 2s;
+      animation:p1_bg_h45 2s;
+  }
+@-webkit-keyframes p1_bg_h45 {
+    0% {
+        top:110vh;
+    }
+    50% {
+        top:110vh;
+    }
+    100% {
+        top:80vh;
+    }
+}@keyframes p1_bg_h45 {
+     0% {
+         top:110vh;
+     }
+     50% {
+         top:110vh;
+     }
+     100% {
+         top:80vh;
+     }
+ }#p1>.bg>.moon {
+      -webkit-animation:p1_bg_moon 3s linear;
+      animation:p1_bg_moon 3s linear;
+  }
+@-webkit-keyframes p1_bg_moon {
+    0% {
+        top:60vh;
+        opacity:0
+    }
+    33% {
+        top:60vh;
+        opacity:0
+    }
+    100% {
+        top:30vh;
+        opacity:1
+    }
+}@keyframes p1_bg_moon {
+     0% {
+         top:60vh;
+         opacity:0
+     }
+     33% {
+         top:60vh;
+         opacity:0
+     }
+     100% {
+         top:30vh;
+         opacity:1
+     }
+ }#p1>.container>div {
+      -webkit-animation:p1_bg_container 2s linear;
+      animation:p1_bg_container 2s linear;
+  }
+@-webkit-keyframes p1_bg_container {
+    0% {
+        opacity:0
+    }
+    50% {
+        opacity:0
+    }
+    100% {
+        opacity:1
+    }
+}@keyframes p1_bg_container {
+     0% {
+         opacity:0
+     }
+     50% {
+         opacity:0
+     }
+     100% {
+         opacity:1
+     }
+ }
